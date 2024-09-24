@@ -6,7 +6,7 @@ const Screen = () => {
 
 	return (
 		<div
-			className="screen w-4/5 mx-auto text-2xl bg-white px-2 py-4 rounded-md overflow-hidden mb-6"
+			className="text-end w-[280px] mx-auto text-2xl bg-gray-50 px-2 py-4 rounded-md overflow-hidden mb-6"
 			max={70}
 			mode="single">
 			{calc.num ? calc.num : calc.res}

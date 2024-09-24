@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const getStyleName = (btn) => {
 	const className = {
-		"=": "equals",
+		"=": "equals w-[135px]",
 		x: "opt",
 		"-": "opt",
 		"+": "opt",
@@ -113,7 +113,7 @@ const Button = ({ value }) => {
 			onClick={handleBtnClick}
 			className={`${getStyleName(
 				value
-			)} button  bg-green-200 text-lg w-16 h-16 rounded-md shadow-sm`}>
+			)} button  bg-green-300 text-lg w-16 h-16 rounded-md shadow-sm`}>
 			{value}
 		</button>
 	);
